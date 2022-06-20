@@ -1,4 +1,4 @@
-@font-face {
+  @font-face {
     font-family: "PT Sans";
     font-style: normal;
     font-weight: 400;
@@ -29,33 +29,29 @@
     text-decoration: none;
   }
   
+  .navigation-list{
+    display: inline-block;
+  }
   .search {
-    background-image: url("images/header/search.svg");
+    background-image: url("/images/header/search.svg");
     background: #FFFFFF;
     color:#000000;
   }
 
   .favorite {
-    background-image: url("images/header/favorite.svg");
+    background-image: url("/images/header/favorite.svg");
     background: #FFFFFF;
     color:#000000;
-  }
-
-  .brown-button {
-    background-color:#756157;
-    height: 37px;
-    width:160px;
-    color:#FFFFFF;
   }
 
   .welcome{
     color: #000000;
     background-color: #c0d6e4;
-    background-image: url("images/main/index-background.jpg");
+    background-image: url("/images/main/index-background.jpg");
     background-size: 100% auto;
     background-repeat: no-repeat;
   }
-  .welcome-text{
+  .welcome-text {
     text-align: center;
   }
 
@@ -69,24 +65,35 @@
     font-size: 30px;
     font-weight: 700;
   }
-.feature-item-real-town {
+  .feature-item-real-town {
   background-color: #82B3D3;
   color:#FFFFFF;
   width: 400px;
   height: 384px;
-}
+  }
 
-.advantages-housing {
+  .advantages-housing, {
   color: #000000;
   background-color:rgba(131, 179, 211, 0.12);
   opacity: 0.12;
-}
-.advantages-food {
+  }
+
+  .advantages-food {
   color: #000000;
   background-color: #FFFFFF;
-}
-.advantages-souvenirs {
+  }
+  .advantages-souvenirs {
   color: #000000;
   background-color:rgba(131, 179, 211, 0.12) ;
-
-}
+  }
+  .advantages-item-housing,.advantages-advantages-food,.advantages-item-souvenirs {
+  font-weight: 700;
+  font-size: 24px;
+  text-align: center;
+  text-transform: uppercase;
+  }
+  .housing-text,.food-text,.souvenirs-text {
+  font-weight: 400;
+  font-size: 18px;
+  text-align: center;
+  }
