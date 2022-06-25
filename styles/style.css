@@ -83,10 +83,10 @@
   text-align: center;
   }
 
-  .advantages-housing, {
-  width: 400px;
-  height: 384px;  
-  color: #000000;
+  .advantages-housing {
+  width:400px;
+  height:384px;  
+  color:#000000;
   background-color:rgba(131, 179, 211, 0.12);
   }
 
@@ -160,7 +160,7 @@
   width: 1200px;
   height: 411px;
 }
-.
+
 .footer-social-item-vk {
   background-image: url("/images/footer/social-vk.svg");
   background-size: 100% auto;
@@ -205,4 +205,37 @@ height: 398px;
 width: 1200px;
 background-size: 100% auto;
 background-repeat: no-repeat;
+}
+.blue-button {
+  color: #FFFFFF;
+  background-color:#82B3D3 ;
+  border-radius: 4px;
+  text-transform: uppercase;
+}
+.green-button {
+  color: #FFFFFF;
+  background-color:#7DB54F;
+  border-radius:4px;
+  text-transform: uppercase;
+}
+.rate {
+  background: #F2F2F2;
+  border-radius: 4px;
+}
+.table {
+ background-image:url("/images/hotels/table-button.svg");
+ width: 16px;
+ height: 14px;
+}
+
+.slideshow {
+  background-image:url("/images/hotels/slideshow-button.svg");
+  width: 16px;
+  height: 14px;
+}
+
+.list {
+  background-image:url("/images/hotels/list-button.svg");
+  width: 16px;
+  height: 14px;
 }
